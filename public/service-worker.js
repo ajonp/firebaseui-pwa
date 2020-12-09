@@ -11,7 +11,9 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.1/workbox-sw.js");
+importScripts(
+  "https://storage.googleapis.com/workbox-cdn/releases/3.0.1/workbox-sw.js"
+);
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -20,37 +22,33 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.1/workbox
  */
 self.__precacheManifest = [
   {
-    "url": "app.js",
-    "revision": "757396cd7100e010d6fd511076b764c8"
+    url: "app.js",
+    revision: "757396cd7100e010d6fd511076b764c8",
   },
   {
-    "url": "common.js",
-    "revision": "da53a3a0fef4a75b32b8e3506f15d6fd"
+    url: "common.js",
+    revision: "da53a3a0fef4a75b32b8e3506f15d6fd",
   },
   {
-    "url": "config.js",
-    "revision": "8b51e438dbae39ff626c1413cc99f4f2"
+    url: "config.js",
+    revision: "8b51e438dbae39ff626c1413cc99f4f2",
   },
   {
-    "url": "index.html",
-<<<<<<< HEAD:public/sw.js
-    "revision": "6bc96526da3bed0320b1fb8bff0c5c27"
-=======
-    "revision": "4f276d9e5cd7e70918b1456141aa2797"
->>>>>>> a49d2a9e8d5dee0a0dae6db901bddc4828bada29:public/service-worker.js
+    url: "index.html",
+    revision: "4f276d9e5cd7e70918b1456141aa2797",
   },
   {
-    "url": "manifest.json",
-    "revision": "f6e2716ee168909d3e2e4867ffd8eeb3"
+    url: "manifest.json",
+    revision: "f6e2716ee168909d3e2e4867ffd8eeb3",
   },
   {
-    "url": "style.css",
-    "revision": "d09f95f17f13763977754a09e24c11c4"
+    url: "style.css",
+    revision: "d09f95f17f13763977754a09e24c11c4",
   },
   {
-    "url": "widget.html",
-    "revision": "ed461d5e6202463ed7d039fbde28f511"
-  }
+    url: "widget.html",
+    revision: "ed461d5e6202463ed7d039fbde28f511",
+  },
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
