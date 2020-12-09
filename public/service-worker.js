@@ -33,7 +33,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
+<<<<<<< HEAD:public/sw.js
     "revision": "6bc96526da3bed0320b1fb8bff0c5c27"
+=======
+    "revision": "4f276d9e5cd7e70918b1456141aa2797"
+>>>>>>> a49d2a9e8d5dee0a0dae6db901bddc4828bada29:public/service-worker.js
   },
   {
     "url": "manifest.json",
